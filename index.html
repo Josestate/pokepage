@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async src="main.js"></script>
+</head>
+<body>
+    <div class="app">
+        <div class="appChild">
+            <input class="inpCl" type="text" placeholder="Search By Name" onkeyup="inpFn(this)">    
+        </div>
+        <div class="cardContainer">
+        </div>
+        <div class="modalContainer">
+            <div class="childModal hide">
+                <div class="imgModal modalC">
+                    <h2 class="nameForm"></h2>
+                    <img src="" alt="" class="pokeImg">
+                    <h2 class="idStyle">id:</h2>
+                    <p class="idForm idStyle"></p>
+                </div>
+                <div class="infoModal modalC">
+                    <h2>info</h2>
+                    <h3 class="typesForm">types:</h3>
+                    <ul class="typesUl"></ul>
+                    <h3 class="abilities">abilities:</h3>
+                    <ul class="abilitiesUl"></ul>
+                </div>
+                <div class="moves modalC">
+                    <h2>Moves</h2>
+                    <ul class="movesUl"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="overlay hide"></div>
+    </div>
+</body>
+</html> 
